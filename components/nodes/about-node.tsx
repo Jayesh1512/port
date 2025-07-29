@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { User, Github, Linkedin, ExternalLink, Mail, Phone, MapPin } from "lucide-react"
 import { portfolioData } from "@/data/portfolio-data"
+import Link from "next/link"
 
 export function AboutNode({ data }: { data: any }) {
   const { personal } = portfolioData
@@ -55,16 +56,22 @@ export function AboutNode({ data }: { data: any }) {
           </div>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 justify-between px-10">
+          <Link href='https://www.linkedin.com/in/jayeshnshete15/'> 
           <Button size="sm" variant="outline" className="flex-1 bg-transparent rounded-sm font-bold">
             <Github className="w-4 h-4" />
           </Button>
+          </Link>
+          <Link href='https://github.com/Jayesh1512'>
           <Button size="sm" variant="outline" className="flex-1 bg-transparent rounded-sm font-bold">
             <Linkedin className="w-4 h-4" />
           </Button>
+          </Link>
+          <Link href="mailto:jayeshshete1512@gmail.com">
           <Button size="sm" variant="outline" className="flex-1 bg-transparent rounded-sm font-bold">
-            <ExternalLink className="w-4 h-4" />
+            <Mail className="w-4 h-4" />
           </Button>
+          </Link>
         </div>
       </CardContent>
     </Card>

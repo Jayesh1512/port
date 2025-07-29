@@ -64,19 +64,21 @@ export const portfolioData: PortfolioData = {
       description:
         "AI-powered system for detecting fake social media profiles with real-time cybercrime data integration",
       technologies: ["Python", "Flask", "Node.js", "React", "TesseractJS", "Gemini API", "Firebase"],
-      link: "https://github.com/jayesh-shete/impostrx",
+      link: "",
+      code : "https://github.com/Jayesh1512/impostrx"
     },
     {
       title: "Ink-spect - Fake Signature Detection",
       description: "Vision Transformer-based system for signature authenticity verification",
       technologies: ["Python", "PyTorch", "Vision Transformers", "NumPy", "Matplotlib"],
       supervisor: "Prof. Rina Damdoo, RCOEM Nagpur",
+      code: "https://github.com/Jayesh1512/ink-spect"
     },
     {
       title: "Job Critique - Job Data Analyser",
       description: "Scalable data warehouse analyzing 65,000+ job listings for market insights",
       technologies: ["Snowflake", "SQL", "Python", "Streamlit", "Pandas"],
-      link: "https://github.com/jayesh-shete/job-critique",
+      code: "https://github.com/Jayesh1512/job-critique",
     },
   ],
   skills: [

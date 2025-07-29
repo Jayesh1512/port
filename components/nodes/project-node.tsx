@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Github, User } from "lucide-react"
 import type { Project } from "@/types/portfolio"
+import Link from "next/link"
 
 interface ProjectNodeProps {
   data: {
@@ -53,15 +54,19 @@ export function ProjectNode({ data }: ProjectNodeProps) {
         </div>
 
         <div className="flex gap-2">
+          <Link href={project.code}>
           <Button size="sm" variant="outline" className="flex-1 text-xs bg-transparent rounded-sm font-bold">
             <Github className="w-3 h-3 mr-1" />
             CODE
           </Button>
+          </Link>
           {project.link && (
+            <Link href={project.link}>
             <Button size="sm" variant="outline" className="flex-1 text-xs bg-transparent rounded-sm font-bold">
               <ExternalLink className="w-3 h-3 mr-1" />
               DEMO
             </Button>
+            </Link>
           )}
         </div>
       </CardContent>
