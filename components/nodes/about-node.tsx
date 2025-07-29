@@ -24,7 +24,7 @@ export function AboutNode({ data }: { data: any }) {
       <CardContent className="p-4">
         <div className="flex items-center gap-3 mb-4">
           <Avatar className="w-12 h-12 rounded-sm">
-            <AvatarImage src="/placeholder.svg?height=48&width=48" />
+            <AvatarImage src="/img.jpeg?height=48&width=48" />
             <AvatarFallback className="bg-blue-100 text-blue-600 rounded-sm font-bold">
               {personal.name
                 .split(" ")

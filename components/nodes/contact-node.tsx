@@ -40,9 +40,6 @@ export function ContactNode({ data }: { data: any }) {
           </div>
         </div>
 
-        <Button className="w-full mt-4 rounded-sm font-bold tracking-wide" size="sm">
-          INITIALIZE_CONNECTION
-        </Button>
 
         <p className="text-xs text-gray-600 mt-3 text-center italic font-medium">
           READY_FOR: [tech_talk, football_analysis, f1_strategy] 🏎️⚽

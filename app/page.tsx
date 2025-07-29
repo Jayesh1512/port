@@ -64,7 +64,7 @@ const initialNodes: Node[] = [
   {
     id: "experience",
     type: "experience",
-    position: { x: 1200, y: 600 }, // Further right and down
+    position: { x: 1200, y: 800 }, // Further right and down
     data: {},
   },
   {
@@ -82,7 +82,7 @@ const initialNodes: Node[] = [
   {
     id: "contact",
     type: "contact",
-    position: { x: 1800, y: 800 }, // Much further right and down
+    position: { x: 1800, y: 1200 }, // Much further right and down
     data: {},
   },
   {
